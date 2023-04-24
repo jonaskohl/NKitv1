@@ -4,7 +4,7 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
+    <authors>Nanook,jonaskohl</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <!-- <icon>icon.png</icon> -->
@@ -13,5 +13,17 @@
     <releaseNotes>Initial release as library</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>NKit</tags>
+    <references>
+      <group targetFramework=".NETFramework4.6.1">
+        <reference file="SharpCompress.dll" />
+      </group>
+    </references>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="..\_Releases\SharpCompress.dll" target="lib\net461" />
+    <file src="..\_Releases\SharpCompress.dll" target="ref\net461" />
+  </files>
 </package>
