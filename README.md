@@ -1,3 +1,15 @@
+# NKit Library
+
+This is a library-only version of NKit v1.4
+
+## TODO:
+
+- Include source of modified SharpCompress (see [upstream #18](https://github.com/Nanook/NKitv1/issues/18))
+
+---
+
+Original README:
+
 # NKit
 
 Welcome to the NKit v1.4 code, provided as is.
